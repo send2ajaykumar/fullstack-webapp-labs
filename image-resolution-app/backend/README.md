@@ -10,6 +10,12 @@ This backend is part of the fullstack-webapp-labs project and provides REST endp
 - Lombok for cleaner code
 - Simple, extensible project structure
 
+🏗 Add dependencies:
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Lombok
+
 
 🏗 Project Structure
 
