@@ -1,0 +1,50 @@
+HELP.md
+
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Build and Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Note: We intentionally DO NOT ignore .mvn/wrapper/maven-wrapper.jar 
+# so teammates can use the wrapper without installing Maven.
+
+### Spring Boot ###
+.springBeans
+
+### Logs and Compiled code ###
+*.log
+*.class
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse / Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.sts4-cache/
+.springBeans
+bin/
+
+### Operating System ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
