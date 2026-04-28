@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ajay.imageresolution.model.Image;
+import com.ajay.imageresolution.model.Resolution;
 import com.ajay.imageresolution.service.ImageService;
 
 @RestController
@@ -27,6 +28,11 @@ public class ImageResolutionController {
 	@GetMapping("/{id}")
     public Image getImage(@PathVariable int id) {
 		return imageService.getImage(id);
+    }
+	
+	@GetMapping("/{id}/metadata")
+    public Resolution getImageMetadata(@PathVariable int id) {
+		return imageService.getImageResolution(id);
     }
 	
 	@PostMapping()
